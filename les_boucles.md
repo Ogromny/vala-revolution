@@ -1,6 +1,3 @@
-# Les boucles
-
-
 # Boucle while
 
 L'instruction **while** permet d'effectuer des boucles, qui sont utiles notamment pour effectuer des traitements répétitifs.
