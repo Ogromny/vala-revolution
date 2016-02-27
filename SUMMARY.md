@@ -6,5 +6,5 @@
    * [Premiers pas](premiers_pas.md)
    * [Les variables, types et réferences](les_variables,_types_et_references.md)
    * [Les opérateurs](les_operateurs.md)
-   * Les conditions
+   * [Les conditions](les_conditions.md)
 
