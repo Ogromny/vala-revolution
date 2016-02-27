@@ -4,4 +4,5 @@
 * [Les notions de base](chapter1.md)
    * [Les outils du développeurs](les_outils_du_developpeurs.md)
    * [Premiers pas](premiers_pas.md)
+   * Les variables, types et réferences
 
