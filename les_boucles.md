@@ -1,9 +1,9 @@
 # Boucle while
 
-L'instruction **while** permet d'effectuer des boucles, qui sont utiles notamment pour effectuer des traitements répétitifs.
+L'instruction `while` permet d'effectuer des boucles, qui sont utiles notamment pour effectuer des traitements répétitifs.
 
 La syntaxe est la suivante :
-```
+```vala
 while (condition) {
   // suite d'instructions qui sera répétée à chaque passage
 }
