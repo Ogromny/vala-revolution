@@ -1,6 +1,6 @@
 # Qu'est-ce que la programmation ?
 
-L'ordinateur n'est qu'une machine, et comme toute machine il ne sait rien faire d'autre que ce pour quoi il a été conçu. Et l'ordinateur a été conçu pour pouvoir être adaptable à la volonté de celui qui l'utilise. Seulement, pour lui dire d'écrire “Boo !” à 14h56 le 3ème vendredi du mois de février, on ne peut pas le faire n'importe comment. La programmation, dans son sens général, est le moyen d'imposer votre volonté à l'ordinateur, et peut revêtir différente forme. Autrefois, on utilisait des cartes à trous, et de nos jours on utilise des langages de programmation.
+L'ordinateur n'est qu'une machine, et comme toute machine il ne sait rien faire d'autre que ce pour quoi il a été conçu. Et l'ordinateur a été conçu pour pouvoir être adaptable à la volonté de celui qui l'utilise. Seulement, pour lui dire d'écrire “Boo !” à 14h56 le 3ème vendredi du mois de février, on ne peut pas le faire n'importe comment. La programmation, dans son sens général, est le moyen d'imposer votre volonté à l'ordinateur, et peut revêtir différentes formes. Autrefois, on utilisait des cartes à trous, et de nos jours on utilise des langages de programmation.
 
 # Les langages de programmation
 
