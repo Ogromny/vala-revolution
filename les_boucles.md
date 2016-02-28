@@ -25,13 +25,13 @@ while (a > 0) {
 La boucle `do while` est une variante de la boucle `while` où l'on écrit d'abord les instructions, puis les conditions de bouclage. Les instructions sont effectuées **au moins une fois**, puis répétées selon la condition.
 
 La syntaxe est la suivante :
-```
+```vala
 do {
   // suite d'instructions
 } while (condition);
 ```
 Voici des exemples :
-```c
+```vala
 int i = 0;
 do {
   stdout.printf("%i\n", i); // cette ligne affichera successivement 0, 1, 2, 3, 4, 5
