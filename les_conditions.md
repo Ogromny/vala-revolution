@@ -20,7 +20,7 @@ else {
 }
 ```
 
-Les blocs sont définis par le caractère ouvrant `{` et le caractère fermant `}`. Ils peuvent contenir plusieurs instructions, et d'autres blocs. Ils peuvent aussi être vides - **{}** est syntaxiquement correct -, ou ne contenir qu'une seule instruction qui peut être elle-même vide - **{;}** est aussi correct.
+Les blocs sont définis par le caractère ouvrant `{` et le caractère fermant `}`. Ils peuvent contenir plusieurs instructions, et d'autres blocs. Ils peuvent aussi être vides - `{}` est syntaxiquement correct -, ou ne contenir qu'une seule instruction qui peut être elle-même vide - **{;}** est aussi correct.
 
 Voici un exemple :
 ```
