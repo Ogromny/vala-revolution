@@ -86,7 +86,7 @@ switch (variable) {
 ```
 N'oubliez pas les deux points après la valeur : `case` valeur `:`.
 
-D'ordinaire, on place le bloc **default** à la fin du bloc **switch**, et cela est requis dans certains langages, mais Vala ne l'impose pas. Vous pouvez placer votre bloc **default** où vous voulez !
+D'ordinaire, on place le bloc `default` à la fin du bloc`switch`, et cela est requis dans certains langages, mais Vala ne l'impose pas. Vous pouvez placer votre bloc **default** où vous voulez !
 
 Voici deux exemples :
 ```
