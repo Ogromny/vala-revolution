@@ -10,5 +10,5 @@
    * [Les boucles](les_boucles.md)
    * [Les tableaux](les_tableaux.md)
 * [Les objets](les_objets.md)
-   * [1er Partie](1er_partie.md)
+   * [Partie 1](partie_1.md)
 
