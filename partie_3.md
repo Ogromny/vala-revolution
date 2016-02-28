@@ -1,6 +1,15 @@
 # Visibilités des éléments
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Il existe 4 types de visibilité
+
+| **type** | **effet** |
+| --        | -- |
+| _public_    | aucune restriction |
+| _private_   | accés limité à la classe ou la structure |
+| _protected_ | accés limité à la classe et à toutes les classes qui en héritent |
+| _internal_  | accés limité exclusivement à toutes les classes definie dans le même package |
+
+    Si aucune visibilité est indiqué, private sera implicitement ajouté
 
 # Accesseurs
 
