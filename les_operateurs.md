@@ -11,7 +11,7 @@ Opérateur | Rôle | Description
 ---
 
 Voici des exemples d'utilisation :
-```
+```vala
 int a = 2; // a vaut 2
 
 a += 3; // a vaut 5
