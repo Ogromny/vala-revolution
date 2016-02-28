@@ -24,11 +24,11 @@ class Personne: Object {
 
     private int age = 32;
     
-    public int get_age() {
+    public int get_age () {
         return this.age;
     }
     
-    public int set_age() {
+    public int set_age () {
         this.age = age;
     }
 
