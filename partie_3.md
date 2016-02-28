@@ -9,7 +9,7 @@ Il existe 4 types de visibilité
 | _protected_ | accés limité à la classe et à toutes les classes qui en héritent |
 | _internal_  | accés limité exclusivement à toutes les classes definie dans le même package |
 
-    Si aucune visibilitén' est indiqué, private sera implicitement ajouté
+    Si aucune visibilité n'est indiqué, private sera implicitement ajouté
 
 # Accesseurs
 
