@@ -108,15 +108,14 @@ Inclure une classe en Vala est aussi simple que suit:
 using MaSuperLib;
 ```
 
-Par exemple si le namespace Gtk est importé. Alors vous pourrez simplement écrire
+Si nous n'avions pas inclus la librairie `MaSuperLib` il nous aurait fallut préfixer chaque appel à nos classes et fonctions statiques dans cet espace de nom. Ce qui est non seulement inutile mais également long et s'avère être super chiant sur de très gros codes. Le code suivant est donc à éviter.
 
 ```vala
-using Gtk;
-
-Window ma_fenetre = new Window();
+MaSuperLib.Personne jean = new MaSuperLib.Personne ("Jean Neymar");
+jean.display_name (); // Affiche: Le nom de cette personne est Jean Neymar.
 ```
 
-à la place de
+Afin d'éviter toute forme de redondance il est préférable d'inclure notre espace de nom au début du fichier, afin d'avoir accès à
 
 ```vala
 Gtk.Window ma_fenetre = new Gtk.Window();
