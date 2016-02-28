@@ -56,7 +56,7 @@ if (true) {
 }
 ```
 est équivalent à :
-```
+```vala
 if (true)
   stdout.printf("Coucou");
 ```
