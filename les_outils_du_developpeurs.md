@@ -35,7 +35,7 @@ Il n'existe pas de plugin Vala pour Geany à l'heure actuelle, mais avec un peti
 
 J'ai donc fabriqué un petit utilitaire (bien incomplet à ce jour), permettant de parser les fichiers Vala et de lancer le compilateur valac avec les options appropriés. Voici le code source :
 
-```csharp
+```vala
 using GLib;
 
 class GeanyValaHelper : Object {
