@@ -17,8 +17,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 # Propriétés
 
-Si vous êtes un programmeur Java vous penserais probablement à quelque chose comme ça
-
+Si vous avez déjà des bases en Java, l'exemple suivant devrait vous parler
 ```vala
 class Personne: Object {
 
