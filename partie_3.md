@@ -71,7 +71,7 @@ Il est également possible de réstreindre le champ d'action possible sur une pr
 
 ```vala
 class Personne: Object {
-    public int age { get; private set; default; }
+    public int age { get; private set; default = 0; }
 }
 ```
 
