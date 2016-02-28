@@ -140,7 +140,7 @@ foreach (int entier in tableau) {
 L'instruction `continue` permet de passer prématurément au tour suivant à l'intérieur d'une boucle.
 
 Voici un exemple :
-```c
+```vala
 for (int i = 0 ; i < 6 ; i++) {
   if (i == 3) continue;
   else stdout.printf("%i\n", i); // cette ligne affichera successivement 0, 1, 2, 4, 5
