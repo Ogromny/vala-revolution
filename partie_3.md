@@ -111,3 +111,19 @@ Gtk.Window ma_fenetre = new Gtk.Window();
 ```
 
     Le namespace GLib est importé par défaut
+    
+Les namespaces peuvent-être additionné
+
+```vala
+namespace A {
+    
+    namespace B {
+        ...
+    }
+    
+    namespace C {
+        ...
+    }
+    
+}
+```
