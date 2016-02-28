@@ -67,7 +67,7 @@ Un autre aspect intéressant est constitué par les références faibles, signal
 
 Enfin, on peut vouloir **transférer**, et non pas **recopier** une référence, et on peut le faire en utilisant le symbole `#` avant le nom de la variable de laquelle on veut récupérer la référence. Exemple :
 
-```
+```vala
 Foo foo = #bar;
 ```
 
