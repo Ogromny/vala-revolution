@@ -137,7 +137,7 @@ foreach (int entier in tableau) {
 
 # Instruction continue
 
-L'instruction **continue** permet de passer prématurément au tour suivant à l'intérieur d'une boucle.
+L'instruction `continue` permet de passer prématurément au tour suivant à l'intérieur d'une boucle.
 
 Voici un exemple :
 ```c
