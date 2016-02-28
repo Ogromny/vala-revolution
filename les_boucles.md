@@ -51,7 +51,7 @@ do {
 La boucle `for` est un peu plus complexe, car elle permet la déclaration, l'initialisation, l'utilisation puis la destruction automatique d'une variable temporaire. On doit également fournir une instruction à exécuter à chaque passage.
 
 La syntaxe est la suivante :
-```
+```vala
 for (Type variable = valeur ; condition ; instruction_à_exécuter_à_chaque_passage ) {
   stdout.printf("%i\n", a);
 }
