@@ -95,7 +95,7 @@ namespace MaSuperLib {
         }
         
         public void display_name () {
-            info (@"Le nom de cette personne est $(this.pseudo)");
+            info (@"Le nom de cette personne est $(this.pseudo).");
         }
     }
 }
