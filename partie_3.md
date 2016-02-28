@@ -67,7 +67,7 @@ var wladimir = new Personne();
 wladimir.age++; // wladimir a maintenant 33 ans
 ```
 
-pour empêcher à l'utilisateur de pouvoir modifier l'âge d'un personnage on peut tout simplement mettre l'attribue set en private ou l'omettre ce qui aura le même effet
+Il est également possible de réstreindre le champ d'action possible sur une propriété, par exemple en interdissant sa modification. Nous utiliserons pour cela le mot-clé `private` directement sur notre champ `set`
 
 ```vala
 class Personne: Object {
