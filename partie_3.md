@@ -9,7 +9,7 @@ Il existe 4 types de visibilité
 | _protected_ | accés limité à la classe et à toutes les classes qui en héritent |
 | _internal_  | accés limité exclusivement à toutes les classes definie dans le même package |
 
-    Si aucune visibilité est indiqué, private sera implicitement ajouté
+    Si aucune visibilitén' est indiqué, private sera implicitement ajouté
 
 # Accesseurs
 
@@ -77,4 +77,27 @@ class Personne: Object {
 
 # Les espaces de noms
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Tout ce qui se trouve dans un namespace est dans le nom de ce namespace.
+Tout ce qui se trouve en dehors de ce namespace est dans le namespace global
+
+```vala
+namespace MaSuperLib {
+    class...
+    
+    fonction...
+}
+```
+
+Pour importer un namespace 
+
+```vala
+using MaSuperLib {
+
+}
+```
+
+Par exemple si le namespace Gtk est importé. Alors vous pourrez simplement écrire
+
+```vala
+Window
+```
