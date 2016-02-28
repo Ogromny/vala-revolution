@@ -86,7 +86,7 @@ foreach (Type variable_temporaire in objet_à_parcourir) {
 }
 ```
 
-La variable temporaire doit être de type compatible avec le type de l'objet à parcourir : par exemple, elle doit être de type `int` pour un tableau de **int**.
+La variable temporaire doit être de type compatible avec le type de l'objet à parcourir : par exemple, elle doit être de type `int` pour un tableau de `int`.
 
 Les boucles foreach sont aussi utilisable avec les classes qui implémentent l'interface **Gee.Iterable**.
 
