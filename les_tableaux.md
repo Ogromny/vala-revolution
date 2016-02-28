@@ -33,7 +33,7 @@ nom_du_tableau[numero_de_l_element]
 ```
 
 Par exemple :
-```
+```vala
 // création du tableau
 int[] mon_tableau = new int[10];
 
