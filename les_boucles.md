@@ -109,7 +109,7 @@ foreach (int entier in tableau) {
 L'instruction `break` sers à sortir prématurément d'une boucle dans laquelle elle est placée. Il s'agit d'une sortie de boucle sur un seul niveau, dans le cas ou il y a plusieurs niveaux de boucles.
 
 Voici un exemple :
-```c
+```vala
 int[] tableau = new int[6];
 int[] tableau2 = new int[6];
 
