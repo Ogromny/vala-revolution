@@ -12,5 +12,5 @@
 * [Les objets](les_objets.md)
    * [Partie 1](partie_1.md)
    * [Partie 2](partie_2.md)
-   * Partie 3
+   * [Partie 3](partie_3.md)
 
