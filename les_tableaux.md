@@ -28,7 +28,7 @@ tableau1 = tableau2; // les valeurs de tableau2 sont recopiées dans tableau1
 Pour accéder aux éléments du tableau, on mentionne le numéro de la place de l'élément auquel on veut accéder, et les manipulations se font comme une variable simple.
 
 Voici la syntaxe :
-```
+```vala
 nom_du_tableau[numero_de_l_element]
 ```
 
