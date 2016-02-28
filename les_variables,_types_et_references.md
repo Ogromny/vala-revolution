@@ -3,19 +3,19 @@ Avant de pouvoir utiliser des variables, il faut les **déclarer**. Le compilate
 
 Mais rassurez-vous, rien de bien compliqué, pour déclarer une variable, il suffit donc de respecter la syntaxe :
 
-```
+```vala
 Type_De_Variable nom_de_variable ;
 ```
 
 Voila, c'est tout, vous pouvez ensuite utiliser la variable **nom_de_variable**. Vous pouvez par exemple décider de l'**initialiser** tout de suite, c'est-à-dire lui assigner une première valeur. Par exemple :
 
-```
+```vala
 string texte;
 texte = "Coucou";
 ```
 Bien entendu, vous pouvez décider d'initialiser la variable plus tard, par exemple au sein d'une méthode en récupérant un paramètre :
 
-```
+```vala
 string texte;
 
 public void init(string param) {
@@ -24,7 +24,7 @@ public void init(string param) {
 ```
 Cela dit, dans de nombreux cas il sera souhaitable de l'initialiser tout de suite, et il est possible dans ce cas de condenser les 2 lignes nécessaires en une seule. En voici un exemple :
 
-```
+```vala
 string texte = "Coucou";
 ```
 
