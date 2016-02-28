@@ -129,4 +129,4 @@ switch (b) {
     break;
 }
 ```
-L'instruction `break;` sers à demander la sortie prématurée du bloc **switch** après le traitement d'un cas favorable. Elle est obligatoire en Vala, et le compilateur vous insultera furieusement si vous l'oubliez.
+L'instruction `break;` sers à demander la sortie prématurée du bloc `switch` après le traitement d'un cas favorable. Elle est obligatoire en Vala, et le compilateur vous insultera furieusement si vous l'oubliez.
