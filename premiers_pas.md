@@ -1,6 +1,6 @@
 # Premier programme
 Il est de tradition, lorsque l'on teste ou présente un langage, de faire un petit programme dont l'unique but est d'afficher “Hello, world !”. Voici le [Hello, world !](http://fr.wikipedia.org/wiki/Hello_World) de Vala :
-```
+```vala
 void main () {
   stdout.printf("Hello, world !\n");
 }
@@ -9,7 +9,7 @@ void main () {
 Si la compilation s'est bien passé, vous devez normalement lire dans la console, au moment de l'exécution, l'expression **Hello, world !**.
 
 Dans toute la première partie, le code ci-dessus sera résumé à :
-```
+```vala
 stdout.printf("Hello, world !");
 ```
 La fonction **main()** sera **implicite**, mais n'oubliez pas de la rajouter lors de vos tests ! Il s'agit du point d'entrée de votre programme.
@@ -23,7 +23,7 @@ La plupart des langages de programmation possède un système de commentaires, p
 - En ligne, grace aux caractères **//**. Tout ce qui ce trouve à droite de 2 symboles **/** accolés est ignoré, jusqu'à la fin de la ligne.
 - En blocs, grâce aux caractères délimitants **/\*** (ouverture) et **\*/** (fermeture). Tout ce qui est à l'intérieur de ces délimiteurs sera ignoré, y compris si la zone s'étend sur plusieurs lignes.
 
-```
+```vala
 // Je suis un commentaire sur une ligne.
 
 /**
