@@ -35,7 +35,7 @@ class Personne: Object {
 }
 ```
 
-ça marche mais Vala peut faire encore mieux
+Ce code est valide mais n'est pas du tout adapté, Vala propose un système de propriétés bien plus puissant qu'un appel de fonction. Voyons l'exemple suivant:
 
 ```vala
 class Personne: Object {
