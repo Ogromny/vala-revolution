@@ -63,9 +63,9 @@ Dans le cas ou les performances comptent beaucoup, l'opération sera probablemen
 
 Un aspect intéressant du langage est abordé avec le mot-clé `out`, qui permet de spécifier que le paramètre passé est utilisé pour stocker une valeur de retour.
 
-Un autre aspect intéressant est constitué par les références faibles, signalés par le mot-clé **weak** : lorsqu'il n'existe plus que des références faibles, ou plus de références, l'objet en mémoire est détruit.
+Un autre aspect intéressant est constitué par les références faibles, signalés par le mot-clé `weak` : lorsqu'il n'existe plus que des références faibles, ou plus de références, l'objet en mémoire est détruit.
 
-Enfin, on peut vouloir **transférer**, et non pas **recopier** une référence, et on peut le faire en utilisant le symbole **#** avant le nom de la variable de laquelle on veut récupérer la référence. Exemple :
+Enfin, on peut vouloir **transférer**, et non pas **recopier** une référence, et on peut le faire en utilisant le symbole `#` avant le nom de la variable de laquelle on veut récupérer la référence. Exemple :
 
 ```
 Foo foo = #bar;
