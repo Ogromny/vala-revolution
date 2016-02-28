@@ -64,7 +64,7 @@ Pour créer une fonction avec des un ou plusieurs paramètres il suffit simpleme
 void ma_fonction(string a, int? b){
     stdout.printf(a);
     
-    if b != null
+    if (b != null)
         stdout.printf("b est égal à %d", b);
 }
 
