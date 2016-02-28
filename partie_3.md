@@ -50,7 +50,7 @@ class Personne: Object {
 }
 ```
 
-mais Vala ne s'arrète pas là !
+Il nous est également possible de définir une propriété en lui assignant une valeur par défaut, et le tout sur une seule ligne !
 
 ```vala
 class Personne: Object {
