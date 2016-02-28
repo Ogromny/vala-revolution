@@ -33,7 +33,7 @@ La plupart des langages de programmation possède un système de commentaires, p
 ```
 
 # Mots-clés
-Comme tous les langages, Vala possède des mots-clés, qui ont une signification particulière pour le compilateur, et dont l'utilisation est interdite en dehors de celle prévue. Par exemple, le mot-clé `using` permet d'importer un espace de noms (namespace en anglais), afin que le code référencé dans cet espace de noms puisse être utilisé dans le code qui suit l'instruction.
+Comme tous les langages, Vala possède des mots-clés, qui ont une signification particulière pour le compilateur, et dont l'utilisation est interdite en dehors de celle prévue. Par exemple, le mot-clé `using` permet d'importer un espace de noms (*namespace* en anglais), afin que le code référencé dans cet espace de noms puisse être utilisé dans le code qui suit l'instruction.
 
 ## Liste des mots-clés en Vala
 ---
