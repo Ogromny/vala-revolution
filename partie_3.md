@@ -141,14 +141,12 @@ Le nesting d'espace de nom est aussi simple que l'exemple suivant :
 namespace A {
     
     namespace B {
-        ...
+        // Notre code pour le namespace A.B ici.
     }
     
     namespace C {
-        class Personne()...
+        // Notre code pour le namespace A.C ici.
     }
     
 }
-
-A.B.Personne wladimir = new A.B.Personne()
 ```
