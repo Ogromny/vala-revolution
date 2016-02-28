@@ -43,7 +43,7 @@ Opérateur  | Rôle  | Description
 ---
 
 Voici des exemples d'utilisation :
-```
+```vala
 int a = 6;
 int b = 14;
 int c = 7;
