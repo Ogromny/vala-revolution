@@ -134,8 +134,9 @@ static int main (string[] args) {
 
 **Remarque:** L'espace de noms `GLib` est importé automatiquement par le compilateur, inutile donc de l'inclure manuellement.
     
-Les namespaces peuvent-être additionné
+Afin de clore ce chapitre, j'aimerai également vous faire part d'une petite fonctionnalité sympa de Vala. Il s'agit de pouvoir écrire un espace de noms dans un autre espace de noms, aussi appelé "nesting" en anglais. Ce n'est pas quelque chose que l'on utilise tous les jours mais cela peut s'avérer rapidement utile afin de maintenir une librairie complexe comportant plusieurs milliers de lignes de code.
 
+Le nesting d'espace de nom est aussi simple que l'exemple suivant :
 ```vala
 namespace A {
     
