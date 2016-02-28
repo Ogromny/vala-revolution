@@ -3,7 +3,7 @@
 La condition `if` est la plus utilisée des structures conditionnelles.
 
 La syntaxe est la suivante :
-```c
+```vala
 // le bloc if obligatoire, unique et toujours au début
 if (condition1) {
   // suite d'instructions exécutée si condition1 vaut vrai
