@@ -77,7 +77,7 @@ for (int a = 0 ; a < 6 ; stdout.printf("coucou\n") ) {
 
 # Boucle foreach
 
-La boucle **foreach** est une simplification de la boucle **for**, dans les cas spécifiques du parcours en bout en bout des tableaux, listes et tables de hachages. Elle permet d'avoir accès facilement à l'élément courant de l'objet parcouru, stocké dans une variable temporaire.
+La boucle `foreach` est une simplification de la boucle **for**, dans les cas spécifiques du parcours en bout en bout des tableaux, listes et tables de hachages. Elle permet d'avoir accès facilement à l'élément courant de l'objet parcouru, stocké dans une variable temporaire.
 
 La syntaxe est la suivante :
 ```
