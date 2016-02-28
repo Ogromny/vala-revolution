@@ -48,7 +48,7 @@ do {
 
 # Boucle for
 
-La boucle **for** est un peu plus complexe, car elle permet la déclaration, l'initialisation, l'utilisation puis la destruction automatique d'une variable temporaire. On doit également fournir une instruction à exécuter à chaque passage.
+La boucle `for` est un peu plus complexe, car elle permet la déclaration, l'initialisation, l'utilisation puis la destruction automatique d'une variable temporaire. On doit également fournir une instruction à exécuter à chaque passage.
 
 La syntaxe est la suivante :
 ```
