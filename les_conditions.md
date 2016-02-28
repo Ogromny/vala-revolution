@@ -49,7 +49,7 @@ test.vala:13.5-13.35: warning: unreachable code detected
 Compilation succeeded - 2 warning(s)
 ```
 
-Dans le cas où il n'y a qu'une seule ligne dans un bloc, vous pouvez omettre les accolades (les symboles **{** et `}`) :
+Dans le cas où il n'y a qu'une seule ligne dans un bloc, vous pouvez omettre les accolades (les symboles `{` et `}`) :
 ```vala
 if (true) {
   stdout.printf("Coucou");
