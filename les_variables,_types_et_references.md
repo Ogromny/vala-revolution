@@ -53,9 +53,9 @@ Lorsqu'il stocke un résultat, l'ordinateur procède comme si l'on déchargeait 
 
 # Manipulation des références
 
-Habituellement, les paramètres passées à une méthode sont passés en tant que valeur, et l'on récupère ainsi une variable locale. Pour préciser qu'un paramètre doit être passé par référence, on doit ajouter le mot-clé **ref** devant.
+Habituellement, les paramètres passées à une méthode sont passés en tant que valeur, et l'on récupère ainsi une variable locale. Pour préciser qu'un paramètre doit être passé par référence, on doit ajouter le mot-clé `ref` devant.
 
-```
+```vala
 ma_methode(ref param)
 ```
 
