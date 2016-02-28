@@ -122,8 +122,10 @@ namespace A {
     }
     
     namespace C {
-        ...
+        class Personne()...
     }
     
 }
+
+A.B.Personne wladimir = new A.B.Personne()
 ```
