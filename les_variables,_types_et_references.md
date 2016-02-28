@@ -53,7 +53,7 @@ Lorsqu'il stocke un résultat, l'ordinateur procède comme si l'on déchargeait 
 
 # Manipulation des références
 
-Habituellement, les paramètres passées à une méthode sont passés en tant que valeur, et l'on récupère ainsi une variable locale. Pour préciser qu'un paramètre doit être passé par référence, on doit ajouter le mot-clé  `ref` devant.
+Habituellement, les paramètres passées à une méthode sont passés en tant que valeur, et l'on récupère ainsi une variable locale. Pour préciser qu'un paramètre doit être passé par référence, on doit ajouter le mot-clé `ref` devant.
 
 ```vala
 ma_methode(ref param)
@@ -61,7 +61,7 @@ ma_methode(ref param)
 
 Dans le cas ou les performances comptent beaucoup, l'opération sera probablement plus rapide en utilisant une référence, car sans recopie en mémoire.
 
-Un aspect intéressant du langage est abordé avec le mot-clé **out**, qui permet de spécifier que le paramètre passé est utilisé pour stocker une valeur de retour.
+Un aspect intéressant du langage est abordé avec le mot-clé `out`, qui permet de spécifier que le paramètre passé est utilisé pour stocker une valeur de retour.
 
 Un autre aspect intéressant est constitué par les références faibles, signalés par le mot-clé **weak** : lorsqu'il n'existe plus que des références faibles, ou plus de références, l'objet en mémoire est détruit.
 
