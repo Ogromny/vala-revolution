@@ -4,7 +4,7 @@ L'ordinateur n'est qu'une machine, et comme toute machine il ne sait rien faire 
 
 # Les langages de programmation
 
-Les langages de programmation permettent à un humain de communiquer sa volonté à une machine par le biais de jeux d'instructions organisées selon une grammaire. Au début, ils étaient très rudimentaires, avec peu d'instructions, puis elles se sont très vite développées et diversifiées. On constate généralement que les langages de plus haut niveau, plus proche du langage humain, remplacent petit à petit les langages dit de bas niveau, plus proche de ce que l'on appelle « le langage machine » comprit directement par le processeur.
+Les langages de programmation permettent à un humain de communiquer sa volonté à une machine par le biais de jeux d'instructions organisées selon une grammaire. Au début, elles étaient très rudimentaires, avec peu d'instructions, puis elles se sont très vite développées et diversifiées. On constate généralement que les langages de plus haut niveau, plus proche du langage humain, remplacent petit à petit les langages dit de bas niveau, plus proche de ce que l'on appelle « le langage machine » comprit directement par le processeur.
 
 Vala n'échappe pas à ce constat : il se positionne actuellement comme un langage de haut niveau, tout comme Java et C#, et d'autant plus en comparaison du C que l'on considère beaucoup plus de nos jours comme un langage de bas niveau (ce qui n'était pas le cas au début).
 
