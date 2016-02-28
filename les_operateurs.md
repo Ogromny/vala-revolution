@@ -119,7 +119,7 @@ Opérateur  | Rôle  | Description
 ---
 
 Voici des exemples d'utilisation :
-```
+```vala
 bool a = true;
 bool b = true;
 bool c = false;
