@@ -39,7 +39,7 @@ else {
 ```
 
 On remarquera que dans ce cas précis l'avertissement que le compilateur génère à propos des deux portions de code qui ne seront jamais exécutées :
-```
+```vala
 test.vala:4.5-4.29: warning: unreachable code detected
     stdout.printf("Premier"); // Ces deux lignes seront ignorées car
     ^^^^^^^^^^^^^^^^^^^^^^^^^
