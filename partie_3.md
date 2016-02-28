@@ -77,23 +77,35 @@ class Personne: Object {
 
 # Les espaces de noms
 
-Tout ce qui se trouve dans un namespace est dans le nom de ce namespace.
-Tout ce qui se trouve en dehors de ce namespace est dans le namespace global
+Un espace de nom permet d'englober une ou plusieurs classes afin de hierarchiser son code plus facilement. Cela permet également d'avoir un code plus propre, par exemple, lors de la création d'une librairie de fonctions destinée à être réutilisée par la suite.
+
+Voici un petit exemple de ce à quoi ressemble un espace de nom. Nous avons donc utilisé le mot-clé `namespace` afin de déclarer le namespace `MaSuperLib`. Nous avons ensuite déclaré quelques propriétés et fonctions, afin d'avoir un petit code simple pour l'exemple.
 
 ```vala
 namespace MaSuperLib {
-    class...
+    class Personne : GLib.Object {
+        private string pseudo {
+            get;
+            set;
+            default = "Personne_01";
+        }
     
-    fonction...
+        public Personne (string pseudo) {
+            this.pseudo = pseudo;
+        }
+        
+        public void display_name () {
+            info (@"Le nom de cette personne est $(this.pseudo)");
+        }
+    }
 }
 ```
 
-Pour importer un namespace 
+Afin d'importer une librarie contenue dans l'espace de nom `MaSuperLib` il nous faudrat utiliser le mot-clé `using`, les adeptes du C# comprendront surement son utilité. Importer une classe en Vala n'est pas pareil qu'en C#. Ainsi lorsque nous écrirons le code suivant, le compileur Vala va se charger d'inclure le fichier `MaSuperLib.vala` juste avant l'utilisation de la classe.
 
+Inclure une classe en Vala est aussi simple que suit:
 ```vala
-using MaSuperLib {
-
-}
+using MaSuperLib;
 ```
 
 Par exemple si le namespace Gtk est importé. Alors vous pourrez simplement écrire
