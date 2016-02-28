@@ -99,5 +99,13 @@ using MaSuperLib {
 Par exemple si le namespace Gtk est importé. Alors vous pourrez simplement écrire
 
 ```vala
+using Gtk;
+
 Window ma_fenetre = new Window();
+```
+
+à la place de
+
+```vala
+Gtk.Window ma_fenetre = new Gtk.Window();
 ```
