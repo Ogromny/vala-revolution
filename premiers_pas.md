@@ -51,7 +51,7 @@ Comme tous les langages, Vala possède des mots-clés, qui ont une signification
 | weak     	|           	|           	|           	|
 ---
 
-Certains langages permettent tout de même d'utiliser les mots-clés, en dehors de leur signification initiale, bien que cela soit déconseillé, et disposent d'un mécanisme permettant de faire la différence avec le mot-clé. En Vala, vous pouvez utiliser un mot-clé pour un nom de variable ou de classe en le préfixant par le caractère **@**. Vous pouvez donc appeler une variable ou une classe **@class**.
+Certains langages permettent tout de même d'utiliser les mots-clés, en dehors de leur signification initiale, bien que cela soit déconseillé, et disposent d'un mécanisme permettant de faire la différence avec le mot-clé. En Vala, vous pouvez utiliser un mot-clé pour un nom de variable ou de classe en le préfixant par le caractère `@`. Vous pouvez donc appeler une variable ou une classe `@class`.
 
 # Conventions
 Il existe souvent des conventions d'écriture pour les codes sources, dépendants du langage dans lequel est codé le programme, de façon à uniformiser le travail de chaque développeur. Ces conventions peuvent être respectées ou non, sans interférer dans le fonctionnement du programme. Il est cependant largement préférable de s'y conformer lorsqu'elles existent, et spécialement lorsque l'on travaille en équipe.
