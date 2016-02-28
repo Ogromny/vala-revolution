@@ -9,7 +9,7 @@ La syntaxe est la suivante :
 Type[] nom_du_tableau = new Type[taille_du_tableau]; // création d'un tableau avec taille_du_tableau cases
 ```
 
-La valeur par défaut de chaque éléments du tableau dépend du type qui y est stocké : par exemple pour un tableau de **int**, la valeur par défaut sera 0, et ceci pour tous les éléments du tableau.
+La valeur par défaut de chaque éléments du tableau dépend du type qui y est stocké : par exemple pour un tableau de `int`, la valeur par défaut sera 0, et ceci pour tous les éléments du tableau.
 
 Voici un exemple :
 ```
