@@ -99,5 +99,5 @@ using MaSuperLib {
 Par exemple si le namespace Gtk est importé. Alors vous pourrez simplement écrire
 
 ```vala
-Window
+Window ma_fenetre = new Window();
 ```
