@@ -58,7 +58,7 @@ class Personne: Object {
 }
 ```
 
-oui oui vous avez bien lue, j'ai en même temps déclaré une variable et lui est assigné une valeur, et en même temps fais ça propriétés :)
+En effet, il est possible de déclarer une propriété et de lui assigner une valeur par défaut
 
 on peut l'utiliser comme ça
 
