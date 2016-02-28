@@ -30,7 +30,7 @@ string texte = "Coucou";
 
 # Types de données primitifs
 
-Vous venez de voir en action le type **string**, c'est-à-dire en français **chaîne de caractères**. Comme son nom l'indique, il s'agit d'une chaîne formée de plusieurs caractères, ce qui était donc particulièrement indiqué pour stocker le texte **Coucou**. Il existe cependant d'autres types de données primitifs, c'est-à-dire définis par le langage.
+Vous venez de voir en action le type `string`  c'est-à-dire en français **chaîne de caractères**. Comme son nom l'indique, il s'agit d'une chaîne formée de plusieurs caractères, ce qui était donc particulièrement indiqué pour stocker le texte **Coucou**. Il existe cependant d'autres types de données primitifs, c'est-à-dire définis par le langage.
 
 ## Liste des types primitifs
 ---
