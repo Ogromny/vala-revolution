@@ -63,7 +63,7 @@ if (true)
 
 # Condition switch
 
-La condition **switch** est moins utilisée que la condition **if**, notamment parce qu'elle ne prend en charge que des situations restreintes : elle nécessite en effet l'évaluation d'une variable. Dans beaucoup de langages, cette variable ne peut être qu'un entier, mais Vala accepte également de traiter les cas ou cette variable est une chaine de caractère.
+La condition `switch` est moins utilisée que la condition **if**, notamment parce qu'elle ne prend en charge que des situations restreintes : elle nécessite en effet l'évaluation d'une variable. Dans beaucoup de langages, cette variable ne peut être qu'un entier, mais Vala accepte également de traiter les cas ou cette variable est une chaine de caractère.
 
 La syntaxe est la suivante :
 ```
