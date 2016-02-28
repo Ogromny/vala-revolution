@@ -19,7 +19,7 @@ int[] mon_tableau = new int[10]; // mon_tableau contient 10 éléments de type "
 # Utilisation des tableaux
 
 Une fois le tableau créé, il s'utilise comme n'importe quelle variable lorsqu'on le manipule en entier. Par exemple pour copier un tableau :
-```
+```vala
 tableau1 = tableau2; // les valeurs de tableau2 sont recopiées dans tableau1
 ```
 
