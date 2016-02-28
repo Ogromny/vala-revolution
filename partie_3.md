@@ -111,17 +111,28 @@ using MaSuperLib;
 Si nous n'avions pas inclus la librairie `MaSuperLib` il nous aurait fallut préfixer chaque appel à nos classes et fonctions statiques dans cet espace de nom. Ce qui est non seulement inutile mais également long et s'avère être super chiant sur de très gros codes. Le code suivant est donc à éviter.
 
 ```vala
-MaSuperLib.Personne jean = new MaSuperLib.Personne ("Jean Neymar");
-jean.display_name (); // Affiche: Le nom de cette personne est Jean Neymar.
+static int main (string[] args) {
+    MaSuperLib.Personne jean = new MaSuperLib.Personne ("Jean Neymar");
+    jean.display_name (); // Affiche: Le nom de cette personne est Jean Neymar.
+    
+    return 0;
+}
 ```
 
-Afin d'éviter toute forme de redondance il est préférable d'inclure notre espace de nom au début du fichier, afin d'avoir accès à
+Afin d'éviter toute forme de redondance il est préférable d'inclure notre espace de nom au début du fichier, afin d'avoir accès à ses membres d'une manière plus souple. Nous préfererons donc le code suivant :
 
 ```vala
-Gtk.Window ma_fenetre = new Gtk.Window();
+using MaSuperLib;
+
+static int main (string[] args) {
+    Personne mairy = new Personne ("Mairy Gollez");
+    mairy.display_name (); // Affiche: Le nom de cette personne est Mairy Gollez.
+    
+    return 0;
+}
 ```
 
-    Le namespace GLib est importé par défaut
+**Remarque:** L'espace de noms `GLib` est importé automatiquement par le compilateur, inutile donc de l'inclure manuellement.
     
 Les namespaces peuvent-être additionné
 
