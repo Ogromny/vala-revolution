@@ -71,6 +71,6 @@ Enfin, on peut vouloir **transférer**, et non pas **recopier** une référence,
 Foo foo = #bar;
 ```
 
-Ici, foo va récupérer la référence de bar, et bar pointera désormais sur **null**. Le compteur de référence reste inchangé avec cette opération.
+Ici, foo va récupérer la référence de bar, et bar pointera désormais sur `null`. Le compteur de référence reste inchangé avec cette opération.
 
 Depuis la version 0.5.4, le symbole **#** a été remplacé par le mot-clé **owned** et **weak** par **unowned**.
