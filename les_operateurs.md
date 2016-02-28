@@ -75,7 +75,7 @@ Opérateur  | Rôle  | Description
 ---
 
 Voici des exemples d'utilisation :
-```
+```vala
 int a = 5;
 
 if (a == 5)
