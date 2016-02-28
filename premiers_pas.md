@@ -14,7 +14,7 @@ stdout.printf("Hello, world !");
 ```
 La fonction `main()` sera **implicite**, mais n'oubliez pas de la rajouter lors de vos tests ! Il s'agit du point d'entrée de votre programme.
 
-Le caratère **\n** à la fin de **Hello, world !** sers à effectuer un retour à la ligne.
+Le caratère `\n` à la fin de **Hello, world !** sers à effectuer un retour à la ligne.
 Ce code ne fait appel ni à GLib, ni à la définition d'une classe. Vala se différencie donc sur ce point des langages qui, comme Java, imposent l'écriture d'une classe au minimum.
 
 # Commentaires
