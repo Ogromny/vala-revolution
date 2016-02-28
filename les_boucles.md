@@ -12,7 +12,7 @@ while (condition) {
 C'est aussi une manière de soumettre des traitements conditionnels, mais n'oubliez pas de faire en sorte que la condition devienne fausse, sinon vous obtiendrez une boucle infinie qui peut saturer les ressources de votre ordinateur ! Les boucles infinies peuvent parfois être utiles, mais elles sont déconseillée à ce stade du cours, surtout si vous êtes débutant.
 
 Voici un exemple :
-```
+```vala
 int a = 6;
 
 while (a > 0) {
