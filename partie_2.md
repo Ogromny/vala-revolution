@@ -51,9 +51,7 @@ public class Button: Object {
 
 # Manipulation des éléments
 
-
     ### ???
-
 
 # Éléments statiques
 
@@ -61,4 +59,12 @@ public class Button: Object {
 
 # Paramètres optionnels
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Pour créer une fonction avec des un ou plusieurs paramètres il suffit simplement de placer un point d'interrogation ( ? ) comme ceci
+```vala
+void ma_fonction(string a, int? b){
+    stdout.printf(a)
+}
+
+ma_fonction("salut", null);
+ma_fonction("salut", 420);
+```
