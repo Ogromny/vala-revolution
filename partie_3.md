@@ -109,3 +109,5 @@ Window ma_fenetre = new Window();
 ```vala
 Gtk.Window ma_fenetre = new Gtk.Window();
 ```
+
+    Le namespace GLib est importé par défaut
