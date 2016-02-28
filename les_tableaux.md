@@ -5,7 +5,7 @@ Les tableaux permettent de contenir plusieurs éléments d'un même type au sein
 # Déclaration des tableaux
 
 La syntaxe est la suivante :
-```
+```vala
 Type[] nom_du_tableau = new Type[taille_du_tableau]; // création d'un tableau avec taille_du_tableau cases
 ```
 
