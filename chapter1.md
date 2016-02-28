@@ -1,3 +1,5 @@
-# First Chapter
+# Les notions de base
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+Dans ce chapitre nous allons voir, et apprendre les bases essentiels de Vala, à la fin de ce tutoriel vous aurez les bases nécessaire pour continuer avec les objets...
+
+[h](les_boucles.md)
