@@ -62,7 +62,10 @@ public class Button: Object {
 Pour créer une fonction avec des un ou plusieurs paramètres il suffit simplement de placer un point d'interrogation ( ? ) comme ceci
 ```vala
 void ma_fonction(string a, int? b){
-    stdout.printf(a)
+    stdout.printf(a);
+    
+    if b != null
+        stdout.printf("b est égal à %d", b);
 }
 
 ma_fonction("salut", null);
