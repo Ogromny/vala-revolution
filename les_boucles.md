@@ -57,7 +57,7 @@ for (Type variable = valeur ; condition ; instruction_à_exécuter_à_chaque_pas
 }
 ```
 
-Dans certains langages, une ou plusieurs partie de la déclaration de la boucle **for** sont facultatives. Ce **n**'est **pas** le cas de Vala : **les 3 termes sont obligatoires**.
+Dans certains langages, une ou plusieurs partie de la déclaration de la boucle `for` sont facultatives. Ce **n**'est **pas** le cas de Vala : **les 3 termes sont obligatoires**.
 
 L'instruction à effectuer à chaque passage est en pratique toujours destinée à rendre la condition fausse au bout d'un moment, souvent l'incrémentation d'un compteur, mais ce n'est pas obligatoire.
 
