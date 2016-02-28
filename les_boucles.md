@@ -22,7 +22,7 @@ while (a > 0) {
 ```
 # Boucle do while
 
-La boucle **do while** est une variante de la boucle **while** où l'on écrit d'abord les instructions, puis les conditions de bouclage. Les instructions sont effectuées **au moins une fois**, puis répétées selon la condition.
+La boucle `do while` est une variante de la boucle **while** où l'on écrit d'abord les instructions, puis les conditions de bouclage. Les instructions sont effectuées **au moins une fois**, puis répétées selon la condition.
 
 La syntaxe est la suivante :
 ```
