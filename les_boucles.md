@@ -91,7 +91,7 @@ La variable temporaire doit être de type compatible avec le type de l'objet à 
 Les boucles foreach sont aussi utilisable avec les classes qui implémentent l'interface `Gee.Iterable`.
 
 Voici un exemple :
-```cpp
+```vala
 // déclaration d'un tableau de taille 6
 int[] tableau = new int[6];
 
