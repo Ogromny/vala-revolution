@@ -62,7 +62,7 @@ Dans certains langages, une ou plusieurs partie de la déclaration de la boucle 
 L'instruction à effectuer à chaque passage est en pratique toujours destinée à rendre la condition fausse au bout d'un moment, souvent l'incrémentation d'un compteur, mais ce n'est pas obligatoire.
 
 Voici des exemples :
-```cpp
+```vala
 // une version "traditionnelle"...
 for (int a = 0 ; a < 6 ; a++ ) {
   stdout.printf("%i\n", a);
