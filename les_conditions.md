@@ -1,6 +1,6 @@
 # Condition if
 
-La condition **if** est la plus utilisée des structures conditionnelles.
+La condition `if` est la plus utilisée des structures conditionnelles.
 
 La syntaxe est la suivante :
 ```c
