@@ -106,7 +106,7 @@ foreach (int entier in tableau) {
 
 # Instruction break
 
-L'instruction **break** sers à sortir prématurément d'une boucle dans laquelle elle est placée. Il s'agit d'une sortie de boucle sur un seul niveau, dans le cas ou il y a plusieurs niveaux de boucles.
+L'instruction `break` sers à sortir prématurément d'une boucle dans laquelle elle est placée. Il s'agit d'une sortie de boucle sur un seul niveau, dans le cas ou il y a plusieurs niveaux de boucles.
 
 Voici un exemple :
 ```c
