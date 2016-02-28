@@ -12,7 +12,7 @@ Type[] nom_du_tableau = new Type[taille_du_tableau]; // création d'un tableau a
 La valeur par défaut de chaque éléments du tableau dépend du type qui y est stocké : par exemple pour un tableau de `int`, la valeur par défaut sera 0, et ceci pour tous les éléments du tableau.
 
 Voici un exemple :
-```
+```vala
 int[] mon_tableau = new int[10]; // mon_tableau contient 10 éléments de type "int" qui valent tous 0
 ```
 
