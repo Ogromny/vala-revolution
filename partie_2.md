@@ -48,15 +48,6 @@ public class Button: Object {
 }
 ```
 
-
-# Manipulation des éléments
-
-    ### ???
-
-# Éléments statiques
-
-    ### ???
-
 # Paramètres optionnels
 
 Pour créer une fonction avec des un ou plusieurs paramètres il suffit simplement de placer un point d'interrogation ( ? ) comme ceci
