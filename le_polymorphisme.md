@@ -23,7 +23,22 @@ o2.method_1(); // SuperClass.method_1()
 
 Pour empécher ce comportement il faut utiliser les mots-clefs `virtual` et `override`
 ```vala
+class SuperClass : GLib.Object {
+    public virtual void method_1() {
+        stdout.printf("SuperClass.method_1()\n");
+    }
+}
 
+class SubClass : SuperClass {
+    public override void method_1() {
+        stdout.printf("SubClass.method_1()\n");
+    }
+}
+
+SubClass o1 = new SubClass();
+o1.method_1(); // SubClass.method_1()
+SuperClass o2 = o1;
+o2.method_1(); // SubClass.method_1()
 ```
 
 # Les interfaces
