@@ -11,10 +11,6 @@ Il existe 4 types de visibilité
 
     Si aucune visibilité n'est indiqué, private sera implicitement ajouté
 
-# Accesseurs
-
-      ### ???
-
 # Propriétés
 
 Si vous avez déjà des bases en Java, l'exemple suivant devrait vous parler
