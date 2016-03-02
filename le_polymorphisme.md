@@ -14,6 +14,11 @@ class SubClass : SuperClass {
         stdout.printf("SubClass.method_1()\n");
     }
 }
+
+SubClass o1 = new SubClass();
+o1.method_1(); // SubClass.method_1()
+SuperClass o2 = o1;
+o2.method_1(); // SuperClass.method_1()
 ```
 # Les interfaces
 
