@@ -41,10 +41,34 @@ SuperClass o2 = o1;
 o2.method_1(); // SubClass.method_1()
 ```
 
+Si vous voulez utiliser les fonctionnalités d'une classe parentes dans la classes enfants il faudra utiliser le mots-clef `base`
+```vala
+public override void method_name() {
+  base.method_name(); // appele de method_name de la classe parente
+  ...
+}
+```
+
 # Les interfaces
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+Les interfaces sont comme modèles pour classe, les interfaces sont abstraite c'est-à-dire qu'elles ne sont pas instantiables
+```vala
+public interface ITest {
+  public abstract int couleur { get; set; }
+  public abstract void dire_quelque_chose();
+}
+```
+    Il est recommandé de toujours nommer le nom de ses instances par I
+    
+voici comment utiliser les interfaces
+```vala
+public class Voiture: ITest {
+  public int couleur { get; set; }
+  public void dire_quelque_chose() {
+    stdout.printf("Vrrroom Vrroom");
+  }
+}
+```
 # Les types génériques
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
