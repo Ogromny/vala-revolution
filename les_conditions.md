@@ -25,16 +25,16 @@ Les blocs sont définis par le caractère ouvrant `{` et le caractère fermant `
 Voici un exemple :
 ```vala
 if (false) {
-  stdout.printf("Premier"); // Ces deux lignes seront ignorées car
-  stdout.printf(" cas\n"); // false vaudra toujours faux
+  stdout.printf ("Premier"); // Ces deux lignes seront ignorées car
+  stdout.printf (" cas\n"); // false vaudra toujours faux
 }
 
 else if (true) {
-  stdout.printf("Second cas\n"); // Ligne exécuté car la condition vaut vrai
+  stdout.printf ("Second cas\n"); // Ligne exécuté car la condition vaut vrai
 }
 
 else {
-  stdout.printf("Dernier cas\n"); // Ligne ignoré car le second bloc sera exécuté avant
+  stdout.printf ("Dernier cas\n"); // Ligne ignoré car le second bloc sera exécuté avant
 }
 ```
 
@@ -52,13 +52,13 @@ Compilation succeeded - 2 warning(s)
 Dans le cas où il n'y a qu'une seule ligne dans un bloc, vous pouvez omettre les accolades (les symboles `{` et `}`) :
 ```vala
 if (true) {
-  stdout.printf("Coucou");
+  stdout.printf ("Coucou");
 }
 ```
 est équivalent à :
 ```vala
 if (true)
-  stdout.printf("Coucou");
+  stdout.printf ("Coucou");
 ```
 
 # Condition switch
@@ -95,37 +95,37 @@ string b = "coucou";
 
 switch (a) {
   case 1:
-    stdout.printf("1\n"); // Ligne ignorée car a ne vaut pas 1
+    stdout.printf ("1\n"); // Ligne ignorée car a ne vaut pas 1
     break;
 
   default:
-    stdout.printf("default\n"); // Ligne ignorée car il y a un bloc en bas qui correspond
+    stdout.printf ("default\n"); // Ligne ignorée car il y a un bloc en bas qui correspond
     break;
 
   case 2:
-    stdout.printf("2\n"); // Ligne ignorée car a ne vaut pas 2
+    stdout.printf ("2\n"); // Ligne ignorée car a ne vaut pas 2
     break;
 
   case 6:
-    stdout.printf("6\n"); // Ligne exécutée car a vaut 6
+    stdout.printf ("6\n"); // Ligne exécutée car a vaut 6
     break;
 }
 
 switch (b) {
   case "poire":
-    stdout.printf("poire\n"); // Ligne ignorée car b ne vaut pas "poire"
+    stdout.printf ("poire\n"); // Ligne ignorée car b ne vaut pas "poire"
     break;
 
   case "bouteille":
-    stdout.printf("bouteille\n"); // Ligne ignorée car b ne vaut pas "bouteille"
+    stdout.printf ("bouteille\n"); // Ligne ignorée car b ne vaut pas "bouteille"
     break;
 
   default:
-    stdout.printf("default\n"); // Ligne exécutée car aucun bloc autre que "default" ne correspond
+    stdout.printf ("default\n"); // Ligne exécutée car aucun bloc autre que "default" ne correspond
     break;
 
   case "souris":
-    stdout.printf("souris\n"); // Ligne ignorée car b ne vaut pas "souris"
+    stdout.printf ("souris\n"); // Ligne ignorée car b ne vaut pas "souris"
     break;
 }
 ```
