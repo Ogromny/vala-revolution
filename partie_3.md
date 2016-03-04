@@ -16,7 +16,7 @@ Il existe 4 types de visibilité
 Si vous avez déjà des bases en Java, l'exemple suivant devrait vous parler
 
 ```vala
-class Personne: Object {
+class Personne : Object {
 
     private int age = 32;
     
