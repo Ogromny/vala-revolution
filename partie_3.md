@@ -120,7 +120,7 @@ Afin d'éviter toute forme de redondance il est préférable d'inclure notre esp
 ```vala
 using MaSuperLib;
 
-static int main (string[] args) {
+static int main (string [] args) {
     Personne mairy = new Personne ("Mairy Gollez");
     mairy.display_name (); // Affiche: Le nom de cette personne est Mairy Gollez.
     
