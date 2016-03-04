@@ -11,7 +11,7 @@ Si vous voulez faire plusieurs constructeurs vous devez donc vous y prendre comm
 ```vala
 public class Button: Object {
 
-    public Button (){
+    public Button () {
         stdout.printf ("Je suis dans le constructeur :)");
     }
     
@@ -52,7 +52,7 @@ public class Button: Object {
 
 Pour créer une fonction avec des un ou plusieurs paramètres il suffit simplement de placer un point d'interrogation ( ? ) comme ceci
 ```vala
-void ma_fonction (string a, int? b){
+void ma_fonction (string a, int? b) {
     stdout.printf (a);
     
     if (b != null)
