@@ -69,3 +69,5 @@ public class Voiture: ITest {
   }
 }
 ```
+
+> Vous pouvez aussi `override` les `abstract`
