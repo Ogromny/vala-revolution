@@ -6,14 +6,14 @@ Les tableaux permettent de contenir plusieurs éléments d'un même type au sein
 
 La syntaxe est la suivante :
 ```vala
-Type[] nom_du_tableau = new Type[taille_du_tableau]; // création d'un tableau avec taille_du_tableau cases
+Type [] nom_du_tableau = new Type [taille_du_tableau]; // création d'un tableau avec taille_du_tableau cases
 ```
 
 La valeur par défaut de chaque éléments du tableau dépend du type qui y est stocké : par exemple pour un tableau de `int`, la valeur par défaut sera 0, et ceci pour tous les éléments du tableau.
 
 Voici un exemple :
 ```vala
-int[] mon_tableau = new int[10]; // mon_tableau contient 10 éléments de type "int" qui valent tous 0
+int[] mon_tableau = new int [10]; // mon_tableau contient 10 éléments de type "int" qui valent tous 0
 ```
 
 # Utilisation des tableaux
@@ -29,31 +29,31 @@ Pour accéder aux éléments du tableau, on mentionne le numéro de la place de 
 
 Voici la syntaxe :
 ```vala
-nom_du_tableau[numero_de_l_element]
+nom_du_tableau [numero_de_l_element]
 ```
 
 Par exemple :
 ```vala
 // création du tableau
-int[] mon_tableau = new int[10];
+int [] mon_tableau = new int [10];
 
 // initialisation de quelques valeurs
-mon_tableau[3] = 5;
-mon_tableau[7] = 9;
+mon_tableau [3] = 5;
+mon_tableau [7] = 9;
 ```
 
 >/!\ **Attention** : la numérotation des éléments des tableaux commencent **toujours** à **0**. Un tableau de taille 10 possède donc un élément numéro 9, mais **pas** d'élément numéro 10.
 
 Le compilateur **ne** vous insulte **pas** lorsque vous tentez de manipuler un élément dont le numéro est supérieur à la taille du tableau. Le code suivant ne provoque pas d'erreur avec la version 0.5.6 de **valac** :
 ```
-int[] array = new int[2];
+int [] array = new int [2];
 
-array[0] = 0;
-array[1] = 1;
-array[42] = 42;
+array [0] = 0;
+array [1] = 1;
+array [42] = 42;
 
 foreach (int element in array) {
-   stdout.printf("%i\n", element);
+   stdout.printf ("%i\n", element);
 }
 ```
 
