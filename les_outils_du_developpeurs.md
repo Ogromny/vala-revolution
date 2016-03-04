@@ -3,12 +3,9 @@
 Sur la plupart des distributions Linux, il vous suffira d'installer le paquet `valac`, et si ce n'est déjà fait le paquet `build-essential`.
 
 Pour **Debian** (avec root) : `aptitude install build-essential valac`
-Pour **Ubuntu** : `sudo aptitude install build-essential valac`
+Pour **Arch** (avec root) : pacman -S vala
 
 Vous pouvez également passer par la compilation des sources, disponibles sur [les pages du projet Vala](http://live.gnome.org/Vala/Release). Cette solution est **fortement déconseillée** aux débutants et aux personnes ne maîtrisant pas l'Art de la Compilation, mais elle fonctionne aussi et permet d'accéder aux dernières versions.
-
-### Sur Windows
-Valac fonctionne sous Windows. Vous pouvez le compiler à partir des sources, ou utiliser l'installeur qui regroupe valac, gcc (mingw) et GTK+ : [vala 0.5.6](http://code.google.com/p/valide/downloads/detail?name=vala-0.5.6.exe).
 
 ## Programmer avec Eclipse
 Il existe un plugin Vala pour Eclipse, baptisé Valable, disponible ici : [https://launchpad.net/valable (en)](https://launchpad.net/valable). Vous pouvez également trouver des instructions (en anglais) pour l'installation là : [http://www.internettablettalk.com/forums/showpost.php?p=218548&postcount=57 (en)](http://www.internettablettalk.com/forums/showpost.php?p=218548&postcount=57).
