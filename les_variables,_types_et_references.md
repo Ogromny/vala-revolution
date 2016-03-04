@@ -4,7 +4,7 @@ Avant de pouvoir utiliser des variables, il faut les **déclarer**. Le compilate
 Mais rassurez-vous, rien de bien compliqué, pour déclarer une variable, il suffit donc de respecter la syntaxe :
 
 ```vala
-Type_De_Variable nom_de_variable ;
+TypeDeVariable nom_de_variable ;
 ```
 
 Voila, c'est tout, vous pouvez ensuite utiliser la variable **nom_de_variable**. Vous pouvez par exemple décider de l'**initialiser** tout de suite, c'est-à-dire lui assigner une première valeur. Par exemple :
