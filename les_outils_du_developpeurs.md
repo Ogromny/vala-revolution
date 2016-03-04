@@ -5,7 +5,7 @@ Sur la plupart des distributions Linux, il vous suffira d'installer le paquet `v
 Pour **Debian** (avec root) : `aptitude install build-essential valac`      
 Pour **Arch** (avec root) : pacman -S vala
 
-Vous pouvez également passer par la compilation des sources, disponibles sur [les pages du projet Vala](http://live.gnome.org/Vala/Release). Cette solution est **fortement déconseillée** aux débutants et aux personnes ne maîtrisant pas l'Art de la Compilation, mais elle fonctionne aussi et permet d'accéder aux dernières versions.
+> Vous pouvez également passer par la compilation des sources, disponibles sur [les pages du projet Vala](http://live.gnome.org/Vala/Release). Cette solution est **fortement déconseillée** aux débutants et aux personnes ne maîtrisant pas l'Art de la Compilation, mais elle fonctionne aussi et permet d'accéder aux dernières versions.
 
 ## Programmer avec Eclipse
 Il existe un plugin Vala pour Eclipse, baptisé Valable, disponible ici : [https://launchpad.net/valable (en)](https://launchpad.net/valable). Vous pouvez également trouver des instructions (en anglais) pour l'installation là : [http://www.internettablettalk.com/forums/showpost.php?p=218548&postcount=57 (en)](http://www.internettablettalk.com/forums/showpost.php?p=218548&postcount=57).
