@@ -16,7 +16,7 @@ Voici un exemple :
 int a = 6;
 
 while (a > 0) {
-  stdout.printf("%i\n", a); // cette ligne affichera successivement 6, 5, 4, 3, 2, 1
+  stdout.printf ("%i\n", a); // cette ligne affichera successivement 6, 5, 4, 3, 2, 1
   a--; // On oublie pas de décrémenter a, ce qui permettra de sortir de la boucle quand a vaudra 0
 }
 ```
@@ -34,14 +34,14 @@ Voici des exemples :
 ```vala
 int i = 0;
 do {
-  stdout.printf("%i\n", i); // cette ligne affichera successivement 0, 1, 2, 3, 4, 5
+  stdout.printf ("%i\n", i); // cette ligne affichera successivement 0, 1, 2, 3, 4, 5
   i++;
 } while (i < 6);
 
 // même si la condition est fausse, il y a au moins une exécution !
 int i = 0;
 do {
-  stdout.printf("%i\n", i); // cette ligne affichera 0, mais ne sera pas exécutée ensuite
+  stdout.printf ("%i\n", i); // cette ligne affichera 0, mais ne sera pas exécutée ensuite
   i++;
 } while (false);
 ```
@@ -53,7 +53,7 @@ La boucle `for` est un peu plus complexe, car elle permet la déclaration, l'ini
 La syntaxe est la suivante :
 ```vala
 for (Type variable = valeur ; condition ; instruction_à_exécuter_à_chaque_passage ) {
-  stdout.printf("%i\n", a);
+  stdout.printf ("%i\n", a);
 }
 ```
 
@@ -65,12 +65,12 @@ Voici des exemples :
 ```vala
 // une version "traditionnelle"...
 for (int a = 0 ; a < 6 ; a++ ) {
-  stdout.printf("%i\n", a);
+  stdout.printf ("%i\n", a);
 }
 
 // ...et une un peu moins
-for (int a = 0 ; a < 6 ; stdout.printf("coucou\n") ) {
-  stdout.printf("%i\n", a);
+for (int a = 0 ; a < 6 ; stdout.printf ("coucou\n") ) {
+  stdout.printf ("%i\n", a);
   a++;
 }
 ```
@@ -93,14 +93,14 @@ Les boucles foreach sont aussi utilisable avec les classes qui implémentent l'i
 Voici un exemple :
 ```vala
 // déclaration d'un tableau de taille 6
-int[] tableau = new int[6];
+int [] tableau = new int[6];
 
 // les valeurs du tableau sont toutes à 0 pour le moment
 // on change une des valeurs
-tableau[3] = 2;
+tableau [3] = 2;
 
 foreach (int entier in tableau) {
-  stdout.printf("%i\n", entier); // cette ligne affichera successivement 0, 0, 0, 2, 0, 0
+  stdout.printf ("%i\n", entier); // cette ligne affichera successivement 0, 0, 0, 2, 0, 0
 }
 ```
 
@@ -110,25 +110,25 @@ L'instruction `break` sers à sortir prématurément d'une boucle dans laquelle 
 
 Voici un exemple :
 ```vala
-int[] tableau = new int[6];
-int[] tableau2 = new int[6];
+int [] tableau = new int[6];
+int [] tableau2 = new int[6];
 
-tableau[3] = 2;
-tableau2[1] = 1;
+tableau [3] = 2;
+tableau2 [1] = 1;
 
 foreach (int entier in tableau) {
-  stdout.printf("%i\n", entier);
+  stdout.printf ("%i\n", entier);
 
   if (entier == 2) {
-    stdout.printf("Sortie de la boucle principale\n");
+    stdout.printf ("Sortie de la boucle principale\n");
     break;
   }
 
   foreach (int entier2 in tableau2) {
-    stdout.printf("%i\n", entier2);
+    stdout.printf ("%i\n", entier2);
 
     if (entier2 == 1) {
-      stdout.printf("Sortie de la boucle secondaire\n");
+      stdout.printf ("Sortie de la boucle secondaire\n");
       break;
     }
   }
@@ -143,6 +143,6 @@ Voici un exemple :
 ```vala
 for (int i = 0 ; i < 6 ; i++) {
   if (i == 3) continue;
-  else stdout.printf("%i\n", i); // cette ligne affichera successivement 0, 1, 2, 4, 5
+  else stdout.printf ("%i\n", i); // cette ligne affichera successivement 0, 1, 2, 4, 5
 }
 ```
