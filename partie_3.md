@@ -107,7 +107,7 @@ using MaSuperLib;
 Si nous n'avions pas inclus la librairie `MaSuperLib` il nous aurait fallut préfixer chaque appel à nos classes et fonctions statiques dans cet espace de nom. Ce qui est non seulement inutile mais également long et s'avère être super chiant sur de très gros codes. Le code suivant est donc à éviter.
 
 ```vala
-static int main (string[] args) {
+static int main (string [] args) {
     MaSuperLib.Personne jean = new MaSuperLib.Personne ("Jean Neymar");
     jean.display_name (); // Affiche: Le nom de cette personne est Jean Neymar.
     
