@@ -2,7 +2,7 @@
 Il est de tradition, lorsque l'on teste ou présente un langage, de faire un petit programme dont l'unique but est d'afficher “Hello, world !”. Voici le [Hello, world !](http://fr.wikipedia.org/wiki/Hello_World) de Vala :
 ```vala
 void main () {
-  stdout.printf("Hello, world !\n");
+  stdout.printf ("Hello, world !\n");
 }
 ```
 
@@ -10,7 +10,7 @@ Si la compilation s'est bien passé, vous devez normalement lire dans la console
 
 Dans toute la première partie, le code ci-dessus sera résumé à :
 ```vala
-stdout.printf("Hello, world !");
+stdout.printf ("Hello, world !");
 ```
 La fonction `main()` sera **implicite**, mais n'oubliez pas de la rajouter lors de vos tests ! Il s'agit du point d'entrée de votre programme.
 
