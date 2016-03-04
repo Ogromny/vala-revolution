@@ -44,18 +44,18 @@ class GeanyValaHelper : Object {
 
       if (args.length > 1) {
          foreach (string s in args) {
-            if (s.has_suffix(".vala")) {
-               compile(s);
+            if (s.has_suffix (".vala")) {
+               compile (s);
             }
          }
       } else {
          try {
             string filename;
-            Dir dir = Dir.open(".");
+            Dir dir = Dir.open (".");
 
-            while ((filename = dir.read_name()) != null) {
-               if (filename.has_suffix(".vala")) {
-                  compile(filename);
+            while ((filename = dir.read_name ()) != null) {
+               if (filename.has_suffix (".vala")) {
+                  compile (filename);
                }
             }
          } catch (Error e) {
@@ -64,34 +64,34 @@ class GeanyValaHelper : Object {
       }
    }
 
-   private static void compile(string filename) {
+   private static void compile (string filename) {
 
       try {
          string content;
-         FileUtils.get_contents(filename, out content);
-         content = replace(content, " |\n", "");
+         FileUtils.get_contents (filename, out content);
+         content = replace (content, " |\n", "");
 
-         string[] splitted_content = content.split(";");
+         string[] splitted_content = content.split (";");
 
          string cmd = "valac ";
          foreach (string s in splitted_content) {
-            if (s.has_prefix("using") && getLib(s) != "GLib") {
-               cmd += "--pkg "+getLib(s)+" ";
+            if (s.has_prefix ("using") && getLib (s) != "GLib") {
+               cmd += "--pkg "+getLib (s)+" ";
             }
          }
-         cmd += "-o "+basename(filename, ".vala")+" "+filename;
+         cmd += "-o "+basename (filename, ".vala") +" "+filename;
 
 
-         stdout.printf("Compiling : "+filename);
-         Process.spawn_command_line_sync(cmd);
+         stdout.printf ("Compiling : "+filename);
+         Process.spawn_command_line_sync (cmd);
       } catch (Error e) {
 
       }
    }
 
-   private static string getLib(string s) {
+   private static string getLib (string s) {
 
-      string result = replace(s, " |\n|using", "");
+      string result = replace (s, " |\n|using", "");
 
       /*** Zone à compléter ***/
 
@@ -103,17 +103,17 @@ class GeanyValaHelper : Object {
       return result;
    }
 
-   private static string basename(string filename, string extension) {
+   private static string basename (string filename, string extension) {
 
-      return replace(filename, extension, "");
+      return replace (filename, extension, "");
    }
 
-   private static string replace(string s, string pattern, string replacement) {
+   private static string replace (string s, string pattern, string replacement) {
 
       string result = s;
 
       try {
-         result = (new Regex(pattern)).replace(s, s.size(), 0, replacement);
+         result = (new Regex (pattern)).replace (s, s.size (), 0, replacement);
       } catch (Error e) {
 
       }
