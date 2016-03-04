@@ -12,12 +12,6 @@ Il existe un plugin Vala pour Eclipse, baptisé Valable, disponible ici : [https
 
 Le plugin n'a pas l'air terminé, et le développement a l'air au point mort…
 
-## Programmer avec Val(a)IDE
-Il existe un environnement de développement pour Vala, et codé en Vala, baptisé Val(a)IDE. Vous pouvez le retrouver sur la page [http://www.valaide.org/doku.php?id=:fr:start (fr)](http://www.valaide.org/doku.php?id=:fr:start).
-
-### Sur Ubuntu
-Il est nécessaire de compiler Vala en version 0.5.6, le paquet des dépôts étant en version 0.3.5, puis de compiler Valide ensuite.
-
 ### Sur Debian
 Il existe un paquet [disponible ici](http://www.valaide.org/doku.php?id=:fr:start#telechargement).
 
