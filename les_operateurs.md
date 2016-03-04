@@ -79,34 +79,34 @@ Voici des exemples d'utilisation :
 int a = 5;
 
 if (a == 5)
-  stdout.printf("Condition 1 vraie\n"); // ligne exécutée car a vaut 5
+  stdout.printf ("Condition 1 vraie\n"); // ligne exécutée car a vaut 5
 else
-  stdout.printf("Condition 1 fausse\n"); // ligne ignorée
+  stdout.printf ("Condition 1 fausse\n"); // ligne ignorée
 
 if (a != 7)
-  stdout.printf("Condition 2 vraie\n"); // ligne éxécutée car a est différent de 7
+  stdout.printf ("Condition 2 vraie\n"); // ligne éxécutée car a est différent de 7
 else
-  stdout.printf("Condition 2 fausse\n"); // ligne ignorée
+  stdout.printf ("Condition 2 fausse\n"); // ligne ignorée
 
 if (a < 3)
-  stdout.printf("Condition 3 vraie\n"); // ligne ignorée car a est plus grand que 3
+  stdout.printf ("Condition 3 vraie\n"); // ligne ignorée car a est plus grand que 3
 else
-  stdout.printf("Condition 3 fausse\n"); // ligne éxécutée
+  stdout.printf ("Condition 3 fausse\n"); // ligne éxécutée
 
 if ( a <= 5 )
-  stdout.printf("Condition 4 vraie\n"); // ligne éxécuté car a est égal à 5
+  stdout.printf ("Condition 4 vraie\n"); // ligne éxécuté car a est égal à 5
 else
-  stdout.printf("Condition 4 fausse\n"); // ligne ignorée
+  stdout.printf ("Condition 4 fausse\n"); // ligne ignorée
 
 if ( a > 5 )
-  stdout.printf("Condition 4 vraie\n"); // ligne ignorée car a est égal à 5
+  stdout.printf ("Condition 4 vraie\n"); // ligne ignorée car a est égal à 5
 else
-  stdout.printf("Condition 4 fausse\n"); // ligne éxécutée
+  stdout.printf ("Condition 4 fausse\n"); // ligne éxécutée
 
 if ( a >= 5 )
-  stdout.printf("Condition 4 vraie\n"); // ligne exécutée car a est égal à 5
+  stdout.printf ("Condition 4 vraie\n"); // ligne exécutée car a est égal à 5
 else
-  stdout.printf("Condition 4 fausse\n"); // ligne ignorée
+  stdout.printf ("Condition 4 fausse\n"); // ligne ignorée
 ```
 
 # Opérateurs logiques
@@ -125,29 +125,29 @@ bool b = true;
 bool c = false;
 
 if (a && b)
-  stdout.printf("Condition 1 vraie\n"); // ligne exécutée car (a && b) vaut vrai
+  stdout.printf ("Condition 1 vraie\n"); // ligne exécutée car (a && b) vaut vrai
 else
-  stdout.printf("Condition 1 fausse\n"); // ligne ignorée
+  stdout.printf ("Condition 1 fausse\n"); // ligne ignorée
 
 if (a || c)
-  stdout.printf("Condition 2 vraie\n"); // ligne éxécutée car (a || d) vaut vrai
+  stdout.printf ("Condition 2 vraie\n"); // ligne éxécutée car (a || d) vaut vrai
 else
-  stdout.printf("Condition 2 fausse\n"); // ligne ignorée
+  stdout.printf ("Condition 2 fausse\n"); // ligne ignorée
 
 if (a && c)
-  stdout.printf("Condition 3 vraie\n"); // ligne ignorée car (a && c) vaut faux
+  stdout.printf ("Condition 3 vraie\n"); // ligne ignorée car (a && c) vaut faux
 else
-  stdout.printf("Condition 3 fausse\n"); // ligne éxécutée
+  stdout.printf ("Condition 3 fausse\n"); // ligne éxécutée
 
 if (a || b || c) // on peut enchainer les opérateurs logiques...
-  stdout.printf("Condition 4 vraie\n"); // ligne éxécutée
+  stdout.printf ("Condition 4 vraie\n"); // ligne éxécutée
 else
-  stdout.printf("Condition 4 fausse\n"); // ligne ignorée
+  stdout.printf ("Condition 4 fausse\n"); // ligne ignorée
 
 if ( (a && b) || ( b && c) ) // ...et utiliser des parenthèses
-  stdout.printf("Condition 5 vraie\n"); // ligne éxécutée
+  stdout.printf ("Condition 5 vraie\n"); // ligne éxécutée
 else
-  stdout.printf("Condition 5 fausse\n"); // ligne ignorée
+  stdout.printf ("Condition 5 fausse\n"); // ligne ignorée
 ```
 
 # Opérateurs d'incrémentation
