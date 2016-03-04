@@ -20,6 +20,9 @@ On peut programmer en Vala avec gEdit et l'installation du plugin ValaToys. Ce p
 
 Le plugin n'a pas l'air entièrement fonctionnel et souffre de quelques bugs, mais le développement est très actif. Affaire à suivre…
 
+## Programmer avec Atom
+On peut très facilement programmer en Vala avec Atom à l'aide du plugins [language-vala](https://atom.io/packages/language-vala)
+
 ## Programmer avec Geany
 
 Il n'existe pas de plugin Vala pour Geany à l'heure actuelle, mais avec un petit peu de bidouille c'est désormais la meilleure option que j'ai trouvé. Toute l'astuce repose sur le fait que Geany ouvre les fichiers Vala en les considérant comme des fichiers C#, et qu'il est possible de personnaliser la commande à lancer au moment de la compilation. Geany n'étant pas le seul outil utilisable pour coder du C# (MonoDevelop le permet également, et très bien), cela n'est pas gênant de remplacer la commande de compilation de ces fichiers.
