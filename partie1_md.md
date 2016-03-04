@@ -30,11 +30,11 @@ Pour écrire une méthode, voici la syntaxe :
 ```
 class UneClasse {
 
-  Type_de_retour nom_de_la_methode() {
+  Type_de_retour nom_de_la_methode () {
     // méthode sans paramètres
   }
 
-  Type_de_retour nom_de_la_deuxieme_methode(Type param1, Type2 param2) {
+  Type_de_retour nom_de_la_deuxieme_methode (Type param1, Type2 param2) {
     // méthode avec 2 paramètres (vous pouvez en mettre d'autres pareillement)
   }
 }
@@ -46,8 +46,8 @@ Nous allons donc ajouter à notre chat la possibilité de dire « Miaou ! » :
 ```
 class Chat {
 
-  void miaou() { // la méthode ne renvoie rien, on utilise donc void comme type de retour
-    stdout.printf("Miaou !\n");
+  void miaou () { // la méthode ne renvoie rien, on utilise donc void comme type de retour
+    stdout.printf ("Miaou !\n");
   }
 }
 ```
@@ -56,13 +56,13 @@ Puis nous lui donnons la possibilité d'attraper des souris :
 ```
 class Chat {
 
-  void miaou() { // la méthode ne renvoie rien, on utilise donc void comme type de retour
-    stdout.printf("Miaou !\n");
+  void miaou () { // la méthode ne renvoie rien, on utilise donc void comme type de retour
+    stdout.printf ("Miaou !\n");
   }
 
-  void attrape_une_souris() { // la méthode ne renvoie rien, on utilise donc void comme type de retour
-    stdout.printf("Le chat s'approche lentement, puis se met à courrir et attrape une souris !\n");
-    stdout.printf("Le félin a encore frappé...\n");
+  void attrape_une_souris () { // la méthode ne renvoie rien, on utilise donc void comme type de retour
+    stdout.printf ("Le chat s'approche lentement, puis se met à courrir et attrape une souris !\n");
+    stdout.printf ("Le félin a encore frappé...\n");
   }
 }
 ```
@@ -75,17 +75,17 @@ Notre classe **Chat** devient donc exécutable après l'ajout de méthode main, 
 ```
 class Chat {
 
-  void miaou() { // la méthode ne renvoie rien, on utilise donc void comme type de retour
-    stdout.printf("Miaou !\n");
+  void miaou () { // la méthode ne renvoie rien, on utilise donc void comme type de retour
+    stdout.printf ("Miaou !\n");
   }
 
-  void attrape_une_souris() { // la méthode ne renvoie rien, on utilise donc void comme type de retour
-    stdout.printf("Le chat s'approche lentement, puis se met à courrir et attrape une souris !\n");
-    stdout.printf("Le félin a encore frappé...\n");
+  void attrape_une_souris () { // la méthode ne renvoie rien, on utilise donc void comme type de retour
+    stdout.printf ("Le chat s'approche lentement, puis se met à courrir et attrape une souris !\n");
+    stdout.printf ("Le félin a encore frappé...\n");
   }
 
-  static void main() {
-    stdout.printf("Démarrage du programme\n");
+  static void main () {
+    stdout.printf ("Démarrage du programme\n");
   }
 }
 ```
@@ -119,17 +119,17 @@ class Chat {
   string couleur_rayures = "noir"; // les rayures sont noires
   int largeur_rayures = 3; // les rayures font 3 cm de largeur
 
-  void miaou() { // la méthode ne renvoie rien, on utilise donc void comme type de retour
-    stdout.printf("Miaou !\n");
+  void miaou () { // la méthode ne renvoie rien, on utilise donc void comme type de retour
+    stdout.printf ("Miaou !\n");
   }
 
-  void attrape_une_souris() { // la méthode ne renvoie rien, on utilise donc void comme type de retour
-    stdout.printf("Le chat s'approche lentement, puis se met à courrir et attrape une souris !\n");
-    stdout.printf("Le félin a encore frappé...\n");
+  void attrape_une_souris () { // la méthode ne renvoie rien, on utilise donc void comme type de retour
+    stdout.printf ("Le chat s'approche lentement, puis se met à courrir et attrape une souris !\n");
+    stdout.printf ("Le félin a encore frappé...\n");
   }
 
-  static void main() {
-    stdout.printf("Démarrage du programme\n");
+  static void main () {
+    stdout.printf ("Démarrage du programme\n");
   }
 }
 ```
