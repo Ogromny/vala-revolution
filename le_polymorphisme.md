@@ -71,3 +71,25 @@ public class Voiture: ITest {
 ```
 
 > Vous pouvez aussi `override` les `abstract`
+
+# Cacher des méthodes
+
+Vous pouvez aussi tout simplement décider de cacher une fonction en recréant une méthode avec le même nom _À ne pas confondre avec `override`_
+
+```vala
+class Foo : Object {
+    public void my_method () { }
+}
+
+class Bar : Foo {
+    public new void my_method () { }
+}
+```
+
+utilisation
+
+```vala
+Bar bar = new Bar ();
+bar.my_method (); // appele de la fonction my_method de la classe Bar
+(bar as Foo).my_method (); // appele de la fonction my_method de la classe Foo
+```
