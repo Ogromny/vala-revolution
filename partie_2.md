@@ -11,16 +11,16 @@ Si vous voulez faire plusieurs constructeurs vous devez donc vous y prendre comm
 ```vala
 public class Button: Object {
 
-    public Button(){
-        stdout.printf("Je suis dans le constructeur :)");
+    public Button (){
+        stdout.printf ("Je suis dans le constructeur :)");
     }
     
-    public Button.avec_label(string label) {
-        stdout.printf("Je creer un bouton avec un label: %s", label);
+    public Button.avec_label (string label) {
+        stdout.printf ("Je creer un bouton avec un label: %s", label);
     }
     
-    public Button.avec_couleur(string couleur) {
-        stdout.printf("Je creer un bouton avec la couleur %s", couleur);
+    public Button.avec_couleur (string couleur) {
+        stdout.printf ("Je creer un bouton avec la couleur %s", couleur);
     }
     
 }
@@ -29,9 +29,9 @@ public class Button: Object {
 Et pour appeler un constructeur rien de plus simple:
 
 ```vala
-new Button();
-new Button.avec_label("My dick is very big :)");
-new Button.avec_couleur("Rouge");
+new Button ();
+new Button.avec_label ("My dick is very big :)");
+new Button.avec_couleur ("Rouge");
 ```
 
 ### Destructeurs
@@ -41,8 +41,8 @@ Pour faire un destructeur il n'y a rien de plus simple:
 ```vala
 public class Button: Object {
 
-    ~Button() {
-        stdout.printf("Je suis dans le destructeur, et je vais m'auto-détruire dans quelques instant :|");    
+    ~Button () {
+        stdout.printf ("Je suis dans le destructeur, et je vais m'auto-détruire dans quelques instant :|");    
     }
     
 }
@@ -52,13 +52,13 @@ public class Button: Object {
 
 Pour créer une fonction avec des un ou plusieurs paramètres il suffit simplement de placer un point d'interrogation ( ? ) comme ceci
 ```vala
-void ma_fonction(string a, int? b){
-    stdout.printf(a);
+void ma_fonction (string a, int? b){
+    stdout.printf (a);
     
     if (b != null)
-        stdout.printf("b est égal à %d", b);
+        stdout.printf ("b est égal à %d", b);
 }
 
-ma_fonction("salut", null);
-ma_fonction("salut", 420);
+ma_fonction ("salut", null);
+ma_fonction ("salut", 420);
 ```
