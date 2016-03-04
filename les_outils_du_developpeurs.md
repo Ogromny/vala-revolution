@@ -2,7 +2,7 @@
 ### Sur GNU/Linux
 Sur la plupart des distributions Linux, il vous suffira d'installer le paquet `valac`, et si ce n'est déjà fait le paquet `build-essential`.
 
-Pour **Debian** (avec root) : `aptitude install build-essential valac`
+Pour **Debian** (avec root) : `aptitude install build-essential valac`      
 Pour **Arch** (avec root) : pacman -S vala
 
 Vous pouvez également passer par la compilation des sources, disponibles sur [les pages du projet Vala](http://live.gnome.org/Vala/Release). Cette solution est **fortement déconseillée** aux débutants et aux personnes ne maîtrisant pas l'Art de la Compilation, mais elle fonctionne aussi et permet d'accéder aux dernières versions.
